@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from 'next/link'
 
 export default function LinkList({ links }) {
   return (
@@ -10,7 +10,7 @@ export default function LinkList({ links }) {
               <a>{title}</a>
             </Link>
           </div>
-        );
+        )
       })}
 
       <style jsx>{`
@@ -19,5 +19,5 @@ export default function LinkList({ links }) {
         }
       `}</style>
     </div>
-  );
+  )
 }

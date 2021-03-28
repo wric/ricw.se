@@ -1,15 +1,15 @@
-import { useCallback, useState } from "react";
-import Layout from "../components/layout";
+import { useCallback, useState } from 'react'
+import Layout from '../components/layout'
 
 export default function Index() {
-  const [mailto, setMailto] = useState("#");
+  const [mailto, setMailto] = useState('#')
 
   const createMailto = useCallback(() => {
-    if (mailto !== "#") return;
-    const hash = "d2VzdGJlcmcucmljaGFyZEBnbWFpbC5jb20=";
-    const email = Buffer.from(hash, "base64").toString();
-    setMailto(`mailto:${email}`);
-  }, [mailto]);
+    if (mailto !== '#') return
+    const hash = 'd2VzdGJlcmcucmljaGFyZEBnbWFpbC5jb20='
+    const email = Buffer.from(hash, 'base64').toString()
+    setMailto(`mailto:${email}`)
+  }, [mailto])
 
   return (
     <Layout>
@@ -44,5 +44,5 @@ export default function Index() {
         }
       `}</style>
     </Layout>
-  );
+  )
 }

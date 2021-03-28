@@ -1,6 +1,6 @@
-import Layout from "../../components/layout";
+import Layout from '../../components/layout'
 
-export const title = "Evolution Part I: Introduction";
+export const title = 'Evolution Part I: Introduction'
 
 export default function EvolutionPartI() {
   return (
@@ -11,7 +11,7 @@ export default function EvolutionPartI() {
         I started drinking coffee at a young age. At the age of six I took my
         parents last sip of coffee, filled the already milky coffee with even
         more milk and enjoyed it. I can still remember being in the kitchen,
-        sitting at my stool at the bar table enjoying a Swedish afternoon{" "}
+        sitting at my stool at the bar table enjoying a Swedish afternoon{' '}
         <em>fika</em>. The coffee was made from a mocca pot on the stovetop, the
         milk heated on the after burn and then made fluffy with a milk frother.
       </p>
@@ -70,5 +70,5 @@ export default function EvolutionPartI() {
         abandoned espresso machine into something unique and useful.
       </p>
     </Layout>
-  );
+  )
 }

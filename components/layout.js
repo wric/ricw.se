@@ -1,8 +1,8 @@
-import Head from "next/head";
-import Link from "next/link";
+import Head from 'next/head'
+import Link from 'next/link'
 
-export default function Layout({ children, title = "" }) {
-  const headTitle = title ? `${title} · ricw.se` : "ricw.se";
+export default function Layout({ children, title = '' }) {
+  const headTitle = title ? `${title} · ricw.se` : 'ricw.se'
 
   return (
     <div className="container">
@@ -74,5 +74,5 @@ export default function Layout({ children, title = "" }) {
         }
       `}</style>
     </div>
-  );
+  )
 }

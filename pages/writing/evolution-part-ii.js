@@ -1,7 +1,7 @@
-import Layout from "../../components/layout";
-import Image from "next/image";
+import Layout from '../../components/layout'
+import Image from 'next/image'
 
-export const title = "Evolution Part II: Gaggia Evolution";
+export const title = 'Evolution Part II: Gaggia Evolution'
 
 export default function EvolutionPartII() {
   return (
@@ -147,5 +147,5 @@ export default function EvolutionPartII() {
         the rest the project is just wasted time.
       </p>
     </Layout>
-  );
+  )
 }
