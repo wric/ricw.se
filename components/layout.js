@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
+import Spacer from './spacer'
 
 export default function Layout({ children, title = '' }) {
   const headTitle = title ? `${title} · ricw.se` : 'ricw.se'
@@ -19,7 +20,7 @@ export default function Layout({ children, title = '' }) {
           <Link href="/writing">
             <a>writing</a>
           </Link>
-          <span className="spacer">·</span>
+          <Spacer marginx="0.75rem" />
           <Link href="/projects">
             <a>projects</a>
           </Link>
@@ -44,11 +45,6 @@ export default function Layout({ children, title = '' }) {
           margin: 2rem 0 0 0;
           display: flex;
           justify-content: space-between;
-        }
-
-        .spacer {
-          margin: 0 0.75rem 0 0.75rem;
-          cursor: default;
         }
 
         .main {
